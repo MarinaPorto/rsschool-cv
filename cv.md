@@ -19,7 +19,7 @@ Basic: HTML, CSS, JS.
         i++;          
       }
 ```
-6. **Experience. **
+6. **Experience.**
  
 
 7. **Education** *(including courses, seminars, lectures, online learning)*
