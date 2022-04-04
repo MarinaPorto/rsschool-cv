@@ -25,6 +25,7 @@ Basic: HTML, CSS, JS.
 7. **Education** *(including courses, seminars, lectures, online learning)*
 "Shipalex" Education Centre  - Web design,
  Academy BELHARD   - web programming.
+ React cours.
 
 8. **English.**
 A2. 
