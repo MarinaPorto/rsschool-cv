@@ -1,0 +1,220 @@
+body {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1210px;
+  margin: 0 auto;
+}
+
+.header__photo-box {
+  position: relative;
+  height: 440px;
+  width: 300px;
+  background-color: #6d4a30;
+  margin-right: 60px;
+}
+
+.main-photo {
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+}
+
+header {
+  margin: 0 auto;
+  display: flex;
+}
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_items {
+  display: flex;
+}
+
+.header__title {
+  color: #39566e;
+  font-size: 52px;
+}
+
+.header__subtitle-contacts,
+.main__subtitle-info {
+  color: #39566e;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.header__subtitle-city {
+  margin-bottom: 36px;
+}
+
+.contact-info-title {
+  margin-bottom: 0px;
+}
+
+.contact-info-subtitle {
+  margin-top: 10px;
+}
+
+.contact-info-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-info-link:hover {
+  text-decoration: none;
+  color: #194061;
+}
+
+.main-info {
+  display: flex;
+}
+
+.main__education-info {
+  min-width: 280px;
+  background-color: #bec6c2;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 60px;
+}
+
+.main__subtitle-info {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.main__education-info-details {
+  padding-left: 0px;
+}
+.main__education-info-details li {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.main__education-info-details li p {
+  margin-bottom: 2px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.main__general-info {
+  padding-top: 40px;
+}
+
+.main__subtitle {
+  margin-top: 40px;
+}
+
+.main__skills {
+  display: flex;
+  gap: 60px;
+}
+
+.main__education-info-item {
+  margin: 10px 0;
+}
+
+.main__skills-info-items {
+  list-style: none;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.main__skills-info-item {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.main__skills-info-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.main__skills-info-item::before {
+  content: url(./img/icon.svg);
+  margin-bottom: 16px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: -24px;
+  top: 3px;
+}
+
+.main_projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_projects-box-item {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.main_projects-box-item img {
+  width: 240px;
+}
+
+.main_projects-box-item-description {
+  width: 240px;
+  height: 190px;
+  background-color: #f4f5f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+  opacity: 0;
+}
+
+.main_projects-box-item:hover .main_projects-box-item-description {
+  opacity: 0.9;
+}
+.project-link {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.project-link-title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer {
+  padding-top: 20px;
+  height: 70px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__info a:hover {
+  color: #39566e;
+}
+
+.rslogo {
+  width: 100px;
+}
